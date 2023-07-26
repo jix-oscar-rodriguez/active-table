@@ -7,7 +7,7 @@ remember to give me credits
 have a nice day :)
 
 
-![Anotación 2023-07-26 114403](https://github.com/jix-oscar-rodriguez/active-table/assets/127907655/845e3b46-5f68-46ae-bcdb-6f3a8a9dec17)
+
 
 
 
