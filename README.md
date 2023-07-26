@@ -13,5 +13,6 @@ have a nice day :)
 
 
 
-![Anotación 2023-07-26 114403](https://github.com/jix-oscar-rodriguez/active-table/assets/127907655/1760359a-3b94-4072-88f6-0ebdde0b83dc)
+
+![Anotación 2023-07-26 114403](https://github.com/jix-oscar-rodriguez/active-table/assets/127907655/8887b5c6-2806-4839-959f-ea4aad5a06a3)
 ![Uploading Anotación 2023-07-26 114425.png…]()
