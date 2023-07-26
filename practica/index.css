@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: grid;
+   place-items: center;
+}
+/* CONTENEDOR PRINCIPAL⬇ */
+.active{
+    margin-top: 13rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 380px));
+   place-items: center;
+   -webkit-box-shadow: 6px 2px 5px -3px rgba(135,135,135,0.69);
+   -moz-box-shadow: 6px 2px 5px -3px rgba(135,135,135,0.69);
+   box-shadow: 6px 2px 5px -3px rgba(135,135,135,0.69);
+   border-radius: 2rem;
+}
+.counter-container{
+    background: rgb(50,45,235);
+    background: linear-gradient(0deg, rgba(50,45,235,1) 0%, rgba(101,66,254,1) 100%);
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    padding: 3.8rem 3rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+    color: white;
+}
+.counter-container h1{
+color: #c9c2ff;
+font-size: 3rem;
+margin-bottom: .8rem;
+}
+.counter-container .counter{
+background-color: #432ee1;
+padding: 4rem;
+border-radius: 50%;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 20vh;
+height: 20vh;
+}
+.counter-container .counter h1{
+    color: white;
+    font-size: 8rem;
+}
+.counter-container h2{
+    font-size: 4rem;
+}
+.counter-container p{
+    text-align: center;
+    font-size: 2rem;
+    color: #c9c2ff;
+}
+
+/* Tablas ⬇ */
+.tablee{
+
+padding: 4rem 3rem;
+display: flex;
+flex-direction: column;
+width: 85%;
+align-items: flex-start;
+border-radius: 2rem;
+
+}
+.tablee h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.tablee .table{
+    display: grid;  
+    gap: 2rem;
+    width: 100%;
+    justify-items: stretch;
+    margin-bottom: 3rem;
+}
+.tablee tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.tablee .table tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+    border-radius: 1.3rem;
+}
+.tablee .table th{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.tablee .table .reaction{
+    background-color: #fff6f5;
+    color: #db4e55;
+}
+.tablee .table .memory{
+    background-color: #fff9ee;
+    color: #efbd56;
+}
+.tablee .table .verbal{
+    background-color: #edfdfa;
+    color: #45a18a;
+}
+.tablee .table .visual{
+    background-color: #f3f3fa;
+    color: #282d90;
+}
+.tablee .table td{
+    font-size: 2em;
+    color: #8e97a0;
+}
+.tablee .table td span{
+ color: black;
+}
+.tablee a{
+    width: 100%;
+    background-color: #303b59;
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+@media (max-width: 844px){
+    .active{
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+    }
+}
